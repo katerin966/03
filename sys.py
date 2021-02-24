@@ -14,6 +14,6 @@ def executeSomething():
     session.sendmail(sender, receiver, message)
     session.quit()
     print('Mail Sent')
-    time.sleep(10)
+    time.sleep(60)
 while True:
     executeSomething()
